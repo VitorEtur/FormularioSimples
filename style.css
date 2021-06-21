@@ -36,3 +36,17 @@ form {
   justify-items: center;
   text-align-last: center;
 }
+
+.Selo li a {
+  display: block;
+}
+
+.Selo li {
+  display: block;
+  margin-top: 1%;
+}
+
+img {
+  display: block;
+  width: 3%;
+}
