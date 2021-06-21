@@ -5,4 +5,4 @@ Univali │ 1ºPeríodo
 
 Criar um formulário com 4 campos e fazer a validação dos campos escolhidos (Pode ser PHP ou JavaScript).
 
->https://vitoretur.github.io/FormularioSimples/
+https://vitoretur.github.io/FormularioSimples/
