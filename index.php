@@ -12,7 +12,7 @@
     <h2>Formulário</h2>
     <form action="script.php" method="post">
 
-        Nome* <input class="formatado2" type=name name=nome placeholder="Digite seu nome (apenas letras)" pattern="[a-z\s]+$" required><br>
+        Nome* <input class="formatado2" type=name name=nome placeholder="Digite seu nome (apenas letras)" pattern="[A-z\s]+$" required><br>
 
         Username* <input class="formatado2" type="text" name="username" placeholder="Digite seu username" minlength="6" required><br>
 
