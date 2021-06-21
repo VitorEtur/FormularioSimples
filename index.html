@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/png" href="https://img.icons8.com/nolan/64/form.png" />
+    <title>Formulário Simples</title>
+    <script>
+function funcao1()
+{
+var x;
+var r=confirm("Enviar?");
+if (r==true)
+  {
+  x="";
+  }
+else
+  {
+  x="";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+        </script>
+</head>
+<body>
+<div class="formulario">
+    <h2>Formulário</h2>
+    <form action="script.php" method="post">
+
+        Nome* <input class="formatado2" type=name name=nome placeholder="Digite seu nome (apenas letras)" pattern="[a-z\s]+$" required><br>
+
+        Username* <input class="formatado2" type="text" name="username" placeholder="Digite seu username" minlength="6" required><br>
+
+        E-mail* <input class="formatado2" type=email name=email placeholder="Exemplo.: abc@gmail.com" required><br>
+
+        CPF <input class="formatado2" type=cpf name=cpf placeholder="Ex.: 000.000.000-00" maxlength="11"><br>
+
+        Endereço GitHub <input class="formatado2" type=url name=url placeholder="Exemplo.: https://github.com/VitorEtur"><br>
+
+        Data de Nascimento* <input class="formatado" type=date name=datanasc required><br>
+
+    <input class="botao" type=submit onclick="funcao1()" value="Enviar">
+
+
+    
+</div>
+<div class="Selo">
+    <li><a href="https://github.com/VitorEtur" target="_blank"><img src="https://i.imgur.com/Dzr0wJ2.png" /></a>
+    </li>
+</div>
+</form>
+</body>
+</html>
