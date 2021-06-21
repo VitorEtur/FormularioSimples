@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Meu champs kk</title>
+    <script>
+function funcao1()
+{
+var x;
+var r=confirm("Enviar?");
+if (r==true)
+  {
+  x="";
+  }
+else
+  {
+  x="";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+        </script>
 </head>
 <body>
 <div class="formulario">
@@ -24,7 +40,7 @@
 
         Data de Nascimento* <input class="formatado" type=date name=datanasc required><br>
 
-    <input class="botao" type=submit value="Enviar">
+    <input class="botao" type=submit onclick="funcao1()" value="Enviar">
 
 
     
